@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: rgb(6, 6, 15);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container ion-icon{
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+ul ion-icon{
+    rotate: 45deg;
+    font-size: 4rem;
+}
+
+
+.navbar h1{
+     color: white;
+     font-size: 2rem;
+     padding: 3rem 8rem;
+}
+
+.navbar h1 b{
+    color: rgb(153, 52, 235);
+    font-size: 2rem;
+}
+
+.navbar ul li{
+    display: inline-block;
+    font-size: 1.3rem;
+    padding-left: 5rem;
+    position: relative;
+    bottom: 5rem;
+    left: 30rem;
+}
+
+.navbar ul li:hover{
+    transition: all 0.5s;
+    transform: translateY(-30%);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: rgb(153, 52, 235);
+}
+
+.detail h2{
+    color: white;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    font-size: 2rem;
+    
+}
+
+.detail h1{
+    color: beige;
+    padding-top: 2rem;
+    line-height: 4rem;
+    padding-left: 8rem;
+    width: 50rem;
+    font-size: 2.7rem;
+}
+
+.detail h1 b{
+    color: rgb(153, 52, 235);
+}
+
+.detail p{
+    color: whitesmoke;
+    padding-left: 8rem;
+    line-height: 7rem;
+    font-size: 1.5rem;
+}
+
+.detail img{
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    bottom: 6rem;
+    left: 60rem;
+    clip-path: circle(50% at 50% 50%);
+
+}
+
+.detail img:hover{
+    transition: all 0.8s;
+    transform:scale(120%) ;
+}
+@media (max-width:850px) {
+
+    .container{
+        height: 75rem;
+    }
+    .navbar h1{
+        visibility: hidden;
+    }
+
+    .navbar ul li a{
+        position: relative;
+        left: -34rem;
+        line-height: 0rem;
+        padding-left: 0.7rem;
+    }
+
+    .detail h1{
+        width: auto;
+    }
+
+    .detail img{
+        width: 20rem;
+        top: 40rem;
+        left: 14rem;
+    }
+}
+
+/* --------------------------- */
+
+@media only screen and 
+
+(max-width:700px) {
+
+    .container{
+        height: 85rem;
+    }
+    .detail h1{
+        padding-left: 3rem;
+    }
+
+    .detail h2{
+        padding-left: 3rem;
+    }
+    .detail p{
+        width: auto;
+        line-height: 1.9rem;
+        padding-left: 3rem;
+        padding-top: 4rem;
+    }
+
+    .detail img{
+        width: 20rem;
+        top: 45rem;
+        left: 8rem;
+    }
+    
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container2{
+    background: rgb(6, 6, 15);
+    position: relative;
+    height: 100vh;
+}
+
+.navbar {
+     padding: 6rem 0rem;
+}
+
+
+
+.navbar ul li{
+    display: inline-block;
+    font-size: 1.3rem;
+    padding-left: 5rem;
+    position: relative;
+    bottom: 2rem;
+    left: 30rem;
+}
+
+.navbar ul li:hover{
+    transition: all 0.5s;
+    transform: translateY(-30%);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: rgb(153, 52, 235);
+}
+
+.about{
+    display: flex;
+}
+
+.about img{
+    position: absolute;
+    width: 20rem;
+    bottom: 6rem;
+    left: 8rem;
+}
+
+.about img:hover{
+    transition: all 0.8s;
+    transform:translateY(-20rem) ;
+}
+
+.name h2{
+    color: antiquewhite;
+    padding-left: 45rem;
+    position: relative;
+    bottom: 0rem;
+}
+
+.name h1{
+    color: antiquewhite;
+    padding-left: 45rem;
+    position: relative;
+    bottom: -1rem;
+    word-spacing: 0.4rem;
+    font-size: 3rem;
+}
+
+.name b{
+    color: blueviolet;
+}
+
+.name p{
+    color: rgb(209, 209, 198);
+    width: 40rem;
+    position: relative;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    word-spacing: 1.5rem;
+    top: 3rem;
+    left: 45rem;
+}
